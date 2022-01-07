@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: math sans-serif;
+    font-size: 15px;
+}
+h1{
+    font-size: 3em;
+    text-align: center;
+    margin: 12px 0;
+}
+header >div{
+    width: 97%;
+    margin: auto;
+
+}
+div >div{
+position: relative;
+    width: 30%;
+    float: left;
+    padding: 40px;
+    margin: 10px;
+    background-color:darkorange;
+}
+div >div,h2{
+    border: 1px solid  black;
+}
+h2{
+    font-size: 1.5em;
+    position: absolute;
+    top: 0%;
+    right: 0;
+    width: 6em;
+    background-color: #fff;
+    text-align: center;
+    padding: 4px;
+}
+.one{
+    background-color: blueviolet;
+}
+
+.two{
+    background-color: salmon;
+    color: white;
+}
+.three{
+    background-color: cadetblue;
+}
+@media (min-width: 768px) and (max-width:991px) {
+   
+    div > div{
+        width: 49%;
+        margin: 4px;
+    }
+    .lastdiv{
+        width: 99%;
+    }
+}
+@media (max-width: 767px) {
+    body{
+        background-color: green;
+    }
+    div > div{
+        width: 100%;
+        margin: 12px 0;
+    }
+}
